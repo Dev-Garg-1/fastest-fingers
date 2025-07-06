@@ -1,9 +1,10 @@
 import './App.css'
+import TypingTest from './components/TypingTest'
 
 function App() {
   return (
     <>
-      hello
+      <TypingTest />
     </>
   )
 }
