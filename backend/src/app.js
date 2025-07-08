@@ -25,10 +25,14 @@ app.use(cookieParser()) // by adding this line , it means that now the request i
 
 // routes import 
 import userRouter from "./routes/User.routes.js"
+import typingSessionRouter from "./routes/TypingSession.routes.js"
 
 
 // routes declaration
 app.use("/api/v1/users", userRouter)
+
+app.use("/api/v1/session", typingSessionRouter)
+
 
 
 export {app}
