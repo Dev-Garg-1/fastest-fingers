@@ -20,7 +20,7 @@ app.use(express.urlencoded({
 
 app.use(express.static("public"))
 
-app.use(cookieParser())
+app.use(cookieParser()) // by adding this line , it means that now the request in (req, res) - can access the cookies directly
 
 
 // routes import 
