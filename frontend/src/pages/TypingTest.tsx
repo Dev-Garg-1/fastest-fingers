@@ -1,10 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
 
-// const words: string[] = [
-//   'apple', 'pen', 'bus', 'cricket', 'truck',
-//   'book', 'maths', 'hello', 'paper', 'exams'
-// ];
-
 const TypingTest = () => {
   const [timeLeft, setTimeLeft] = useState(60);
   const [isRunning, setIsRunning] = useState(false);
